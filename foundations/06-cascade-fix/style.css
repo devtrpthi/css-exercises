@@ -5,12 +5,7 @@ body {
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
-}
-
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
+  font-weight: 1000;
 }
 
 .para {
@@ -21,17 +16,18 @@ body {
   background: green;
   color: white;
   font-weight: bold;
+  font-size: 20px;
 } 
 
-.button {
+.button.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
-  font-weight: 800;
+  font-weight: 1000;
   font-size: 14px;
 }
 
